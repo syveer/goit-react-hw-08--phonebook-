@@ -1,0 +1,35 @@
+.phonebookContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.addContactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.addContactForm input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addContactButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.addContactButton:hover {
+  background-color: #0056b3;
+}
